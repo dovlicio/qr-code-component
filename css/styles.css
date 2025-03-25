@@ -48,8 +48,8 @@ body {
 
 .card__heading,
 .card__quote {
-    padding-left: var(--spacing-300);
-    padding-right: var(--spacing-300);
+    padding-left: var(--spacing-200);
+    padding-right: var(--spacing-200);
     position: relative;
     z-index: 3;
 }

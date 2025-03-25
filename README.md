@@ -15,13 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshots
-![](./preview-desktop.png)
-![](./preview-mobile.png)
+![](./preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution online](https://dovlicio.github.io/qr_code_component/)
 
 ## My process
 
@@ -33,4 +31,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### What I learned
-Great exercise for practicing and improving HTML and CSS skills. Adding two circles made this challenge even more fun!
+Great exercise for practicing and improving HTML and CSS skills.
