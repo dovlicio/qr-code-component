@@ -15,7 +15,6 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
 }
 
 body {
@@ -26,17 +25,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
 }
 
 .card {
     border-radius: 15px;
     width: 320px;
     background: #fff;
-    padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
     position: relative;
     z-index: 1;
-    margin: auto;
+    padding: var(--spacing-200);
 }
 
 .card__image {
@@ -48,48 +45,27 @@ body {
 
 .card__heading,
 .card__quote {
-    padding-left: var(--spacing-200);
-    padding-right: var(--spacing-200);
     position: relative;
+    margin: 0;
     z-index: 3;
+    padding: 0 var(--spacing-200);
+    text-align: center;
 }
 
 .card__heading {
-    text-align: center;
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
     color: var(--color-slate-900);
+    margin: var(--spacing-200) 0;
 }
 
 .card__quote {
-    text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0.2px;
     color: var(--color-slate-500);
-}
-
-.big-circle,
-.small-circle {
-    background: #3685ff;
-    position: absolute;
-    border-radius: 100%;
-    z-index: 2;
-}
-
-.big-circle {
-    width: 320px;
-    height: 320px;
-    right: 33.5%;
-    bottom: 66.5%;
-}
-
-.small-circle {
-    width: 260px;
-    height: 260px;
-    bottom: 11.5%;
-    left: 46.5%;
+    margin-bottom: var(--spacing-300);
 }
