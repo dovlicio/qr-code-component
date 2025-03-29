@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Solution online](https://dovlicio.github.io/qr_code_component/)
+- Live Site URL: [Solution online](https://dovlicio.github.io/qr-code-component/)
 
 ## My process
 
